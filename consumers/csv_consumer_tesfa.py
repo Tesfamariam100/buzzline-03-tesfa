@@ -18,6 +18,7 @@ from collections import deque
 from dotenv import load_dotenv
 from utils.utils_consumer import create_kafka_consumer
 from utils.utils_logger import logger
+import pandas as pd
 
 #####################################
 # Load Environment Variables
